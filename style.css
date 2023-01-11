@@ -1,3 +1,49 @@
+* {
+    border: 1px solid green;
+}
+
 html, body {
     background: rgb(43, 43, 43);
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: yellow;
+    background-image: url(images/pexels-алёна-8501678.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-box {
+    background-color: rgba(0, 0, 0, .35);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5em;
+    font-size: 50px;
+    font-family: ShadowsIntoLight;
+}
+
+.banner-footer {
+    margin-top: auto;
+    align-self: center;
+}
+
+.form-box {
+    background: red;
+    display: flex;
+}
+
+@font-face {
+    font-family: ShadowsIntoLight;
+    src: url(fonts/ShadowsIntoLight-Regular.ttf);
 }
