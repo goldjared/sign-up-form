@@ -1,5 +1,7 @@
 * {
     border: 1px solid green;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -8,9 +10,8 @@ html, body {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0;
 }
+
 
 .banner {
     background-color: yellow;
@@ -22,16 +23,26 @@ html, body {
     flex-direction: column;
 }
 
+.logo-img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
 .logo-box {
     background-color: rgba(0, 0, 0, .35);
     align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
+    padding: 10px 0 10px 0;
     top: 5em;
     font-size: 50px;
     font-family: ShadowsIntoLight;
 }
+
+
+
 
 .banner-footer {
     margin-top: auto;
