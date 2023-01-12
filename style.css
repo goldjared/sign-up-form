@@ -12,6 +12,12 @@ html, body {
     flex-direction: row;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 
 .banner {
     background-color: yellow;
@@ -51,13 +57,19 @@ html, body {
 
 .form-box {
     background: rgb(199, 199, 199);
-    display: flex;
     gap: 25px;
     padding: 25px;
+    display: flex;
+    position: relative;
+}
+
+.form-header {
+    position: absolute;
+    top: 5px;
 }
 
 .box2 {
-    background-color: gray;
+    
 }
 
 .form-inputs {
@@ -72,6 +84,13 @@ input {
     border-radius: 5px;
     height: 25px;
     border: 1px solid gray;
+}
+
+input[type='submit'] {
+    padding: 10px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 @font-face {
