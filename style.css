@@ -59,20 +59,31 @@ main {
 
 .form-box {
     background: rgb(199, 199, 199);
-    gap: 25px;
-    padding: 25px;
     display: flex;
+    flex-direction: column;
     position: relative;
+    
+    
 }
 
 .form-header {
-    position: absolute;
-    top: 5px;
+    position: relative;
+    left: 25px;
+    padding: 25px 0 25px 0;
+}
+
+.input-container {
+    background: rgb(199, 199, 199);
+    gap: 25px;
+    padding: 0 25px 25px 25px;
+    display: flex;
+    position: relative;
 }
 
 .box1 {
     position: relative;
     top: 7em;
+    left: 25px;
 }
 
 .box2 {
