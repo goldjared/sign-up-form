@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ html, body {
     background: rgb(219, 219, 219);
     color: rgb(12, 12, 12);
     height: 100vh;
-    width: 100vh;
+    width: auto;
     display: flex;
     flex-direction: row;
     font-size: 20px;
@@ -50,9 +50,6 @@ main {
     font-family: ShadowsIntoLight;
 }
 
-
-
-
 .banner-footer {
     margin-top: auto;
     align-self: center;
@@ -65,24 +62,26 @@ main {
     position: relative;
 }
 
-.form-header {
-    position: relative;
-    left: 25px;
-    padding: 25px 0 25px 0;
-}
+
 
 .input-container {
     background: rgb(230, 230, 230);
     gap: 25px;
     padding: 0 25px 25px 25px;
     display: flex;
-    box-shadow: 0 10px 7px -2px black;
+    box-shadow: 0 7px 7px 0px rgb(173, 173, 173);
 }
+
+.form-header {
+    font-family: ShadowsIntoLight;
+    margin-left: 25px;
+    padding: 25px 0 25px 0;
+}   
 
 .box1 {
     position: relative;
     top: 7em;
-    left: 25px;
+    margin-left: 25px;
 }
 
 .form-inputs {
@@ -128,7 +127,7 @@ input:valid {
 .login {
     position: relative;
     bottom: 7em;
-    left: 25px;
+    margin-left: 25px;
 }
 
 a {
