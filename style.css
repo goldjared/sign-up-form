@@ -29,6 +29,7 @@ main {
     width: 50rem;
     display: flex;
     flex-direction: column;
+    margin-right: 25px;
 }
 
 .logo-img {
@@ -67,21 +68,20 @@ main {
 .input-container {
     background: rgb(230, 230, 230);
     gap: 25px;
-    padding: 0 25px 25px 25px;
+    padding: 0 25px 25px 0;
     display: flex;
     box-shadow: 0 7px 7px 0px rgb(173, 173, 173);
 }
 
 .form-header {
+    position: relative;
     font-family: ShadowsIntoLight;
-    margin-left: 25px;
     padding: 25px 0 25px 0;
-}   
+}
 
 .box1 {
     position: relative;
     top: 7em;
-    margin-left: 25px;
 }
 
 .form-inputs {
@@ -105,7 +105,6 @@ input[type='submit'] {
     height: 50px;
     position: relative;
     top: 20px;
-    left: 25px;
     color: rgb(253, 236, 2);
     background-color: rgb(202, 151, 10);
     font-size: 17px;
@@ -126,8 +125,7 @@ input:valid {
 
 .login {
     position: relative;
-    bottom: 7em;
-    margin-left: 25px;
+    bottom: 6em;
 }
 
 a {
