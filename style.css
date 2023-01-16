@@ -8,16 +8,20 @@ html, body {
     background: rgb(219, 219, 219);
     color: rgb(12, 12, 12);
     height: 100vh;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     font-size: 20px;
+
+    overflow: hidden;
 }
 
 main {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    position: relative;
+    left: 25px;
 }
 
 
@@ -26,10 +30,9 @@ main {
     background-image: url(images/pexels-алёна-8501678.jpg);
     background-size: cover;
     height: 100vh;
-    width: 50rem;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    margin-right: 25px;
 }
 
 .logo-img {
@@ -87,7 +90,8 @@ main {
 
 .box1 {
     position: relative;
-    top: 7em;
+    top: 6rem;
+    max-width: 35rem;
 }
 
 .form-inputs {
@@ -102,8 +106,6 @@ input {
     border: 1px solid gray;
     display: flex;
 }
-
-
 
 input[type='submit'] {
     padding: 10px;
@@ -130,7 +132,7 @@ input:valid {
 
 .login {
     position: relative;
-    bottom: 6em;
+    bottom: 5em;
 }
 
 a {
