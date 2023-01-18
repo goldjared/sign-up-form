@@ -1,5 +1,5 @@
 * {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0;
     padding: 0;
 }
@@ -71,10 +71,13 @@ main {
 .input-container {
     background: rgb(230, 230, 230);
     gap: 25px;
-    padding: 0 25px 25px 0;
+    width: 100vh;
+    padding: 0 25px 25px 25px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 7px 7px 0px rgb(173, 173, 173);
+    position: relative;
+    right: 25px;
 }
 
 .form-row {
@@ -83,14 +86,16 @@ main {
 }
 
 .form-header {
-    position: relative;
     font-family: ShadowsIntoLight;
-    padding: 25px 0 25px 0;
+    padding: 25px 0 25px 25px;
+     position: relative;
+     right: 25px;
+     background: rgb(230, 230, 230);
 }
 
 .box1 {
     position: relative;
-    top: 6rem;
+    top: 5rem;
     max-width: 35rem;
 }
 
@@ -132,7 +137,7 @@ input:valid {
 
 .login {
     position: relative;
-    bottom: 5em;
+    bottom: 4em;
 }
 
 a {
