@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Sign-up</title>
 </head>
 <body>
@@ -63,6 +64,18 @@
     </div>
     <p class="login">Already have an account? <a href="">Log in</a></p>
 </main>
-    
+<script>
+    const pwd = document.querySelector('#pwd');
+    const pwdConfirm = document.querySelector('#confirm-pwd');
+    pwdConfirm.addEventListener('keypress', function() {
+        console.log('click');
+        if(pwd.value === pwdConfirm.value){
+            pwd.classList.add('input:valid');
+            pwdConfirm.classList.add('input:valid');
+            console.log('same');
+        }
+    });
+
+</script>    
 </body>
 </html>
