@@ -28,8 +28,8 @@ html, body {
     display: flex;
     flex-direction: row;
     font-size: 20px;
-
-    overflow: hidden;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 main {
